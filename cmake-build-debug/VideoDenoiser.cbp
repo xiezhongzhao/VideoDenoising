@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VideoDenoiser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv4.1.2\;CMake Files\opencv4.1.2\opencv\;CMake Files\opencv4.1.2\opencv\mingw64-build\;CMake Files\opencv4.1.2\opencv\mingw64-build\install\;CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\;CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\mingw\;CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\mingw\lib\;CMake Files\source\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VideoDenoiser_EXE">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/VideoDenoiser_EXE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 VideoDenoiser_EXE"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VideoDenoiser_EXE/fast">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/VideoDenoiser_EXE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 VideoDenoiser_EXE/fast"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SRC_MODULE_dynamic">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/source/libSRC_MODULE.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 SRC_MODULE_dynamic"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SRC_MODULE_dynamic/fast">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/source/libSRC_MODULE.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 SRC_MODULE_dynamic/fast"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SRC_MODULE_static">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/source/libSRC_MODULE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 SRC_MODULE_static"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SRC_MODULE_static/fast">
+				<Option output="F:/Work/CPP/VideoDenosing/cmake-build-debug/source/libSRC_MODULE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Work/CPP/VideoDenosing/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Work/CPP/VideoDenosing/source"/>
+					<Add directory="E:/opencv4.1.2/opencv/mingw64-build/install/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 SRC_MODULE_static/fast"/>
+					<CompileFile command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;F:/Work/CPP/VideoDenosing/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Work/CPP/VideoDenosing/main.cpp">
+			<Option target="VideoDenoiser_EXE"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/Fast_klt.cpp">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/Fast_klt.h">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/Mesh.cpp">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/Mesh.h">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/MeshFlow.cpp">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/MeshFlow.h">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/MotionDenoiser.cpp">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/MotionDenoiser.h">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/VideoIO.cpp">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/VideoIO.h">
+			<Option target="SRC_MODULE_dynamic"/>
+			<Option target="SRC_MODULE_static"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/opencv4.1.2/opencv/mingw64-build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv4.1.2\opencv\mingw64-build\install\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/opencv4.1.2/opencv/mingw64-build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv4.1.2\opencv\mingw64-build\install\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/opencv4.1.2/opencv/mingw64-build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/opencv4.1.2/opencv/mingw64-build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/opencv4.1.2/opencv/mingw64-build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv4.1.2\opencv\mingw64-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="F:/Work/CPP/VideoDenosing/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

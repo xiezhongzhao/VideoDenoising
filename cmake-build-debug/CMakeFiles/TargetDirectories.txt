@@ -1,0 +1,7 @@
+F:/Work/CPP/VideoDenosing/cmake-build-debug/CMakeFiles/VideoDenoiser_EXE.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/source/CMakeFiles/edit_cache.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/source/CMakeFiles/SRC_MODULE_dynamic.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/source/CMakeFiles/SRC_MODULE_static.dir
+F:/Work/CPP/VideoDenosing/cmake-build-debug/source/CMakeFiles/rebuild_cache.dir

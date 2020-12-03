@@ -1,0 +1,2 @@
+C:\Mingw-w64\mingw64\bin\ar.exe qc libSRC_MODULE.a  CMakeFiles/SRC_MODULE_static.dir/Fast_klt.cpp.obj CMakeFiles/SRC_MODULE_static.dir/Mesh.cpp.obj CMakeFiles/SRC_MODULE_static.dir/MeshFlow.cpp.obj CMakeFiles/SRC_MODULE_static.dir/MotionDenoiser.cpp.obj CMakeFiles/SRC_MODULE_static.dir/VideoIO.cpp.obj
+C:\Mingw-w64\mingw64\bin\ranlib.exe libSRC_MODULE.a
